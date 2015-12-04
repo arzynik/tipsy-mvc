@@ -37,7 +37,7 @@
 	},
 	"scripts": {
 		"post-package-install": [
-			"Tipsy\MVC\Install::run"
+			"Tipsy\\MVC\\Install::run"
 		]
 	}
 }
