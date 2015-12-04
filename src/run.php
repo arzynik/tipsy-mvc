@@ -6,10 +6,7 @@
 		$find = function($page, &$controller, &$posiblePage) {
 
 			$pageClass = explode('/',$page);
-			$controllers = __DIR__.'/../../../app/controllers/';
-			echo __DIR__."\n";
-
-			echo $controllers;
+			$controllers = __DIR__.'/../../../../app/controllers/';
 
 			foreach ($pageClass as $posiblePage) {
 				$posiblePages[] = $fullPageNext.'/'.$posiblePage.'.php';
