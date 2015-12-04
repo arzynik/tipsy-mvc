@@ -1,6 +1,6 @@
 <?php
 
-Tipsy::router()
+\Tipsy::router()
 	->otherwise(function($Request) {
 
 		$find = function($page, &$controller, &$posiblePage) {
