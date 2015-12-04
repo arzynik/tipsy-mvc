@@ -3,10 +3,19 @@
 namespace Tipsy\MVC;
 
 class Install {
-	public static function run($event) {
+	public static function run($event = null) {
 		// create directories if they do not exist
-		$installedPackage = $event->getComposer()->getPackage();
-		var_dump($installedPackage);
-		echo __DIR__;
+
+
+		$path = realpath(__DIR__.'/../../../../');
+
+		$objects = new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($path), \RecursiveIteratorIterator::SELF_FIRST);
+		foreach($objects as $name => $object){
+			echo "$name\n";
+			echo $object->getPathname()."\n";
+		}
+
 	}
 }
+
+Install::run();

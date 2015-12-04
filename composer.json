@@ -19,7 +19,8 @@
 	],
 	"minimum-stability": "stable",
 	"require": {
-		"php": ">=5.4.0"
+		"php": ">=5.4.0",
+		"arzynik/tipsy": "dev-master"
 	},
 	"require-dev": {
 		"satooshi/php-coveralls": "dev-master"
@@ -29,7 +30,7 @@
 			"Tipsy\\MVC\\": "src/"
 		},
 		"files": [
-			"src/run.php"
+			"src/Run.php"
 		]
 	},
 	"archive": {
