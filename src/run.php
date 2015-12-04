@@ -1,5 +1,5 @@
 <?php
-die('test');
+
 Tipsy::router()
 	->otherwise(function($Request) {
 
@@ -7,6 +7,9 @@ Tipsy::router()
 
 			$pageClass = explode('/',$page);
 			$controllers = __DIR__.'/../../../app/controllers/';
+			echo __DIR__."\n";
+
+			echo $controllers;
 
 			foreach ($pageClass as $posiblePage) {
 				$posiblePages[] = $fullPageNext.'/'.$posiblePage.'.php';
