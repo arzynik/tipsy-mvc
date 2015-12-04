@@ -28,9 +28,9 @@
 		"psr-4": {
 			"Tipsy\\MVC\\": "src/"
 		},
-		"files": {
+		"files": [
 			"src/run.php"
-		}
+		]
 	},
 	"archive": {
 		"exclude": ["/tests", "/.travis.yml", "/.gitignore"]
