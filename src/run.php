@@ -1,5 +1,5 @@
 <?php
-
+die('test');
 Tipsy::router()
 	->otherwise(function($Request) {
 
