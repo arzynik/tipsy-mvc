@@ -2,9 +2,7 @@
 
 An MVC adapter designed after the rails directory structure.
 
-**This is a work in progress**. Don't use it!
-
-Unfortunaly composer doesnt allow dependency scripts to execute so the installation instructions are required. ref https://getcomposer.org/doc/articles/scripts.md#what-is-a-script-
+Unfortunaly composer doesnt allow dependency scripts to execute so the installation instructions are required. ref https://getcomposer.org/doc/articles/scripts.md#what-is-a-script- . See https://github.com/arzynik/tipsy-example-mvc/blob/master/composer.json for an example composer file with auto install.
 
 
 #### Installation
