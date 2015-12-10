@@ -19,7 +19,7 @@
 	],
 	"require": {
 		"php": ">=5.4.0",
-		"arzynik/tipsy": "dev-master"
+		"tipsyphp/tipsy": "dev-master"
 	},
 	"require-dev": {
 		"satooshi/php-coveralls": "dev-master"
