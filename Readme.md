@@ -2,13 +2,13 @@
 
 An MVC adapter designed after the rails directory structure.
 
-Unfortunaly composer doesnt allow dependency scripts to execute so the installation instructions are required. ref https://getcomposer.org/doc/articles/scripts.md#what-is-a-script- . See https://github.com/arzynik/tipsy-example-mvc/blob/master/composer.json for an example composer file with auto install.
+Unfortunaly composer doesnt allow dependency scripts to execute so the installation instructions are required. ref https://getcomposer.org/doc/articles/scripts.md#what-is-a-script- . See https://github.com/tipsyphp/tipsy-example-mvc/blob/master/composer.json for an example composer file with auto install.
 
 
 #### Installation
 
-1. `composer require arzynik/tipsy dev-master && composer require arzynik/tipsy-mvc dev-master`
-1. `php vendor/arzynik/tipsy-mvc/install.php`
+1. `composer require tipsyphp/tipsy dev-master && composer require tipsyphp/tipsy-mvc dev-master`
+1. `php vendor/tipsyphp/tipsy-mvc/install.php`
 
 
 #### Directory Structure
@@ -29,4 +29,4 @@ public
   index.php
 ```
 
-See [Tipsy Documentation](https://github.com/arzynik/tipsy/wiki) for more information.
+See [Tipsy Documentation](https://github.com/tipsyphp/tipsy/wiki) for more information.
