@@ -11,7 +11,7 @@ spl_autoload_register(function($class) {
 
 $controller = function($Request) {
 	$find = function($page, &$controller, &$posiblePage) {
-		$pageClass = explode('/',$page);
+		$pageClass = explode('/',preg_replace('/\-|_/','',$page));
 		\Tipsy\MVC\Find::find($pageClass, $controller, $posiblePage);
 	};
 
